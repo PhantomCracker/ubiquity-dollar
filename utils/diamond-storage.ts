@@ -5,6 +5,7 @@ import _ from "lodash";
 import path from "path";
 
 const facetsFolder = "./src/dollar/facets";
+const libsFolder = "./src/dollar/libraries";
 const targetFolder = "../packages/contracts";
 
 const executeCommand = (command) => {
@@ -23,8 +24,6 @@ if (fs.existsSync(targetFolder)) {
 } else {
   console.error("Target folder does not exist.");
 }
-// Get Diamond storage value before creating the pull request
-const beforeValue = executeCommand("forge inspect ChefFacet storage");
 
 let fileNames = []; // Variable to store the file names
 
@@ -48,7 +47,6 @@ getFileNamesFromFolder(facetsFolder)
     let prStorageOutput = "";
     let devStorageOutput = "";
 
-    console.log("BRANCH NAME: " + branchName);
     let storageOutputString;
 
     for (let i = 0; i < fileNames.length; i++) {
