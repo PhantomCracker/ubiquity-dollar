@@ -22,8 +22,8 @@ fs.readdir(libsFolder, (err, files) => {
   }
 
   const fileNames = files
-    .filter((file) => fs.statSync(path.join(libsFolder, file)).isFile())
-    .sort((a, b) => a.localeCompare(b));
+                    .filter((file) => fs.statSync(path.join(libsFolder, file)).isFile())
+                    .sort((a, b) => a.localeCompare(b));
   let i = 0;
   console.log("File names: " + fileNames);
 
