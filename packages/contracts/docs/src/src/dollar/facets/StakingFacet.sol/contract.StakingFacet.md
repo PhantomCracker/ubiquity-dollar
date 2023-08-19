@@ -1,5 +1,5 @@
 # StakingFacet
-[Git Source](https://github.com/ubiquity/ubiquity-dollar/blob/9b081c9a3593a6c50107cbbe15494a939de0a708/src/dollar/facets/StakingFacet.sol)
+[Git Source](https://github.com/ubiquity/ubiquity-dollar/blob/d47ba67ecbe94bc364a206fbde6b184405f4ec97/src/dollar/facets/StakingFacet.sol)
 
 **Inherits:**
 [Modifiers](/src/dollar/libraries/LibAppStorage.sol/contract.Modifiers.md), [IStaking](/src/dollar/interfaces/IStaking.sol/interface.IStaking.md)

@@ -1,5 +1,5 @@
 # MockMetaPool
-[Git Source](https://github.com/ubiquity/ubiquity-dollar/blob/9b081c9a3593a6c50107cbbe15494a939de0a708/src/dollar/mocks/MockMetaPool.sol)
+[Git Source](https://github.com/ubiquity/ubiquity-dollar/blob/d47ba67ecbe94bc364a206fbde6b184405f4ec97/src/dollar/mocks/MockMetaPool.sol)
 
 **Inherits:**
 [MockERC20](/src/dollar/mocks/MockERC20.sol/contract.MockERC20.md)
