@@ -1,4 +1,4 @@
-ame: Diamond Storage Check
+name: Diamond Storage Check
 
 on:
   push:
