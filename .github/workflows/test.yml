@@ -41,14 +41,14 @@ jobs:
           FOUNDRY_DENY_WARNINGS: true
         run: yarn build
 
-      - name: Move to contracts
-        run: |
-          ls
-          cd packages/contracts/src/dollar/facets
-          echo "After"
-          ls
+#      - name: Move to contracts
+#        run: |
+#          ls
+#          cd packages/contracts
+#          echo "After"
+#          ls
 
       - name: Check storage layout
         uses: Rubilmax/foundry-storage-check@v3.6
         with:
-          contract: ChefFacet
+          contract: packages/contracts/src/dollar/facets/ChefFacet.sol:ChefFacet
