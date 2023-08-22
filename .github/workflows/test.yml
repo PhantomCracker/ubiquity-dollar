@@ -22,5 +22,10 @@ jobs:
 
       - name: Check storage layout
         uses: Rubilmax/foundry-storage-check@v3.6
+        run: |
+          ls
+          cd packages/contracts
+          echo "After"
+          ls
         with:
           contract: ChefFacet
