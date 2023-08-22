@@ -44,7 +44,7 @@ jobs:
       - name: Move to contracts
         run: |
           ls
-          cd packages/contracts
+          cd packages/contracts/src/dollar/facets
           echo "After"
           ls
 
